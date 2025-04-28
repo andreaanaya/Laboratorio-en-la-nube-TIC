@@ -7,5 +7,5 @@ app.get(‘/’,(req,res)=> {
 });
 
 app.listen(port,()=> {
-   console.log(‘servidor escuchando en http://localhost:${port]’);
+   console.log(‘servidor escuchando en http://localhost:${port}’);
 });
